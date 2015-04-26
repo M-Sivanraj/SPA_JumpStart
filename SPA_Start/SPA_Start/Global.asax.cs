@@ -18,6 +18,7 @@ namespace SPA_Start
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             DurandalBundleConfig.RegisterBundles(BundleTable.Bundles);
+            GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
         }
     }
 }

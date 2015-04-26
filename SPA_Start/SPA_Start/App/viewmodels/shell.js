@@ -10,7 +10,8 @@
             router.map([
                 { route: '', title: 'Welcome', moduleId: 'viewmodels/welcome', nav: true },
                 { route: 'flickr', moduleId: 'viewmodels/flickr', nav: true },
-                { route: 'Weather', moduleId: 'viewmodels/Weather', nav: true }
+                { route: 'Weather', moduleId: 'viewmodels/Weather', nav: true },
+                 { route: 'Books', moduleId: 'viewmodels/books', nav: true }
             ]).buildNavigationModel();
 
             return router.activate();
